@@ -13,8 +13,8 @@ export class SharedService {
   // 183.80.50.40:3443
   // 192.168.8.135
   readonly APIYoutubeTrending = 'https://www.googleapis.com/youtube/v3/videos';
-  readonly APILocal = 'http://192.168.8.135:2445/api/CheckNetwork';
-  readonly APILocal_Debug = 'http://192.168.8.135:2445/api/Upload';
+  readonly APILocal = 'http://183.80.50.40:2445/api/CheckNetwork';
+  readonly APILocal_Debug = 'http://183.80.50.40.135:2445/api/Upload';
   readonly from0to50 = 'CDIQAQ';
   readonly from50to100 = 'CDIQAA';
   readonly from100to150 = 'CGQQAA';
