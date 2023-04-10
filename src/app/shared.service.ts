@@ -13,8 +13,8 @@ export class SharedService {
   // 183.80.50.40:3443
   // 192.168.8.135
   readonly APIYoutubeTrending = 'https://www.googleapis.com/youtube/v3/videos';
-  readonly APILocal = 'http://183.80.50.40:2445/api/CheckNetwork';
-  readonly APILocal_Debug = 'http://183.80.50.40.135:2445/api/Upload';
+  readonly APILocal = 'http://192.168.10.153:2445/api/CheckNetwork';
+  readonly APILocal_Debug = 'http://192.168.10.153:2445/api/Upload';
   readonly from0to50 = 'CDIQAQ';
   readonly from50to100 = 'CDIQAA';
   readonly from100to150 = 'CGQQAA';
@@ -26,7 +26,7 @@ export class SharedService {
     .set('chart','mostPopular')
     .set('videoCategoryId','10')
     .set('regionCode', regionCode)
-    .set('key','AIzaSyDGQo9ygVxqfbsgKQ6ZDbutcCMFzlkI-cY')
+    .set('key','AIzaSyCqQet4TA3zGiGErS2-01ij1MOkyU4WPic')
     .set('maxResults',50)
     .set('pageToken',this.from0to50)
 
@@ -39,7 +39,7 @@ export class SharedService {
     .set('chart','mostPopular')
     .set('videoCategoryId','10')
     .set('regionCode', regionCode)
-    .set('key','AIzaSyDGQo9ygVxqfbsgKQ6ZDbutcCMFzlkI-cY')
+    .set('key','AIzaSyCqQet4TA3zGiGErS2-01ij1MOkyU4WPic')
     .set('maxResults',50)
     .set('pageToken',this.from50to100)
 
@@ -52,7 +52,7 @@ export class SharedService {
     .set('chart','mostPopular')
     .set('videoCategoryId','10')
     .set('regionCode', regionCode)
-    .set('key','AIzaSyDGQo9ygVxqfbsgKQ6ZDbutcCMFzlkI-cY')
+    .set('key','AIzaSyCqQet4TA3zGiGErS2-01ij1MOkyU4WPic')
     .set('maxResults',50)
     .set('pageToken',this.from100to150)
 
@@ -65,7 +65,7 @@ export class SharedService {
     .set('chart','mostPopular')
     .set('videoCategoryId','10')
     .set('regionCode', regionCode)
-    .set('key','AIzaSyDGQo9ygVxqfbsgKQ6ZDbutcCMFzlkI-cY')
+    .set('key','AIzaSyCqQet4TA3zGiGErS2-01ij1MOkyU4WPic')
     .set('maxResults',50)
     .set('pageToken',this.from150to200)
 
